@@ -22,5 +22,12 @@
       <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/problemset0/players/players.db</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="packages.db" read-only="true" uuid="77347d99-0963-46ad-9f99-6b4ea0cbb577">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/problemset1/packages/packages.db</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
