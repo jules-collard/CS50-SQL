@@ -29,5 +29,12 @@
       <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/problemset1/packages/packages.db</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="dese.db" read-only="true" uuid="94c343d8-856d-4d11-8bbe-c6f6bb922a77">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/problemset1/dese/dese.db</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
