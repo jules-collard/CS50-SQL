@@ -81,3 +81,20 @@ JOIN "performances" ON (
         AND "salaries"."year" = "performances"."year")
 WHERE salaries."year" = 2001 AND "H" > 0
 ORDER BY "dollars per hit", "first_name", "last_name" LIMIT 10;
+
+--12
+WITH joined AS (
+    SELECT players."id", "first_name", "last_name", "salary"/"H" AS "dollars per hit",
+           "salary"/"RBI" AS "dollars per RBI" FROM "players"
+    JOIN "salaries" ON "players"."id" = "salaries"."player_id"
+    JOIN "performances" ON (
+        "players"."id" = "performances"."player_id"
+        AND "salaries"."year" = "performances"."year"
+    ) WHERE "salaries"."year" = 2001 AND "H" > 0 AND "RBI" > 0
+) SELECT "first_name", "last_name" FROM joined WHERE "id" IN (
+        SELECT "id" FROM "joined"
+        ORDER BY "dollars per hit", "first_name", "last_name" LIMIT 10
+    ) AND "id" IN (
+        SELECT "id" FROM "joined"
+        ORDER BY "dollars per RBI", "first_name", "last_name" LIMIT 10
+    ) ORDER BY "id";
