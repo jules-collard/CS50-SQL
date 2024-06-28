@@ -12,6 +12,9 @@
     <file url="file://$PROJECT_DIR$/problemset1/dese/dese-solutions.sql" dialect="SQLite" />
     <file url="file://$PROJECT_DIR$/problemset1/moneyball/moneyball-solutions.sql" dialect="SQLite" />
     <file url="file://$PROJECT_DIR$/problemset1/packages/log.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/problemset2/atl/schema.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/problemset2/connect/schema.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/problemset2/donuts/schema.sql" dialect="SQLite" />
     <file url="PROJECT" dialect="SQLite" />
   </component>
 </project>
