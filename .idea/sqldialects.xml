@@ -15,6 +15,9 @@
     <file url="file://$PROJECT_DIR$/problemset2/atl/schema.sql" dialect="SQLite" />
     <file url="file://$PROJECT_DIR$/problemset2/connect/schema.sql" dialect="SQLite" />
     <file url="file://$PROJECT_DIR$/problemset2/donuts/schema.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/problemset3/dont-panic/hack.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/problemset3/dont-panic/reset.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/problemset3/meteorites/import.sql" dialect="SQLite" />
     <file url="PROJECT" dialect="SQLite" />
   </component>
 </project>
