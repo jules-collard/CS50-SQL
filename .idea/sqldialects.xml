@@ -18,6 +18,15 @@
     <file url="file://$PROJECT_DIR$/problemset3/dont-panic/hack.sql" dialect="SQLite" />
     <file url="file://$PROJECT_DIR$/problemset3/dont-panic/reset.sql" dialect="SQLite" />
     <file url="file://$PROJECT_DIR$/problemset3/meteorites/import.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/problemset4/bnb/available.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/problemset4/bnb/frequently_reviewed.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/problemset4/bnb/june_vacancies.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/problemset4/bnb/no_descriptions.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/problemset4/bnb/one_bedrooms.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/problemset4/census/by_district.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/problemset4/census/most_populated.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/problemset4/census/rural.sql" dialect="SQLite" />
+    <file url="file://$PROJECT_DIR$/problemset4/census/total.sql" dialect="SQLite" />
     <file url="PROJECT" dialect="SQLite" />
   </component>
 </project>
